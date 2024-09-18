@@ -1,0 +1,43 @@
+.noteForm {
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid var(--foreground);
+  max-width: 300px;
+  margin: auto;
+}
+
+.button {
+  background-color: #0070f3;
+  color: var(--foreground);
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #002753;
+}
+
+
+.textarea,
+.input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--background);
+  background: var(--foreground);
+  border: 1px solid var(--background);
+}
+
+.colorInput {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
